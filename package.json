@@ -1,0 +1,20 @@
+{
+  "name": "nodesample",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "fastify": "^5.4.0",
+    "postgres": "^3.4.7"
+  }
+}
